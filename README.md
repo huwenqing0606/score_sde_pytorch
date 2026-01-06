@@ -70,6 +70,15 @@ In general, this PyTorch version consumes less memory but runs slower than JAX. 
 
 ## How to run the code
 
+### venv
+```sh
+python3.8 -m venv venv
+
+. venv/bin/activate
+
+pip install pip --upgrade
+```
+
 ### Dependencies
 
 Run the following to install a subset of necessary python packages for our code
